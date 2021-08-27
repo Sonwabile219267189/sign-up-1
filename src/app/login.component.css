@@ -1,0 +1,66 @@
+.about_div{
+  text-align: center;
+  margin: 5vh 20vh 5vh 20vh;
+
+}
+.banner{
+  background-image:url(banner.PNG);
+  background-color: rgb(0, 121, 255);
+  background-repeat:no-repeat;
+  height: 20vh;
+  width: 100%;
+  background-size: 100% 100%;
+}
+.logo_img{
+  margin: 0px 0px 0px 50px;
+}
+body{
+  margin: 0px 0px 0px 0px;
+
+}
+.buttonList{
+  text-align: center;  
+  margin: 10vh 20vh 10vh 20vh;
+  height: 20vh;
+  border-top: 10vh;
+
+}
+.home_page_button{
+  margin: 0px 20px 0px 20px;
+
+}
+.login_button{
+  
+
+}
+.footer{
+ 
+  width: 100%;
+  background-color: rgb(0, 121, 255);
+  height: 20vh;
+  
+  
+}
+.login_form{
+  text-align: center;
+  height: 50vh;
+  border-top: 5vh;
+  border-bottom: 5vh;
+  padding-top: 10vh;
+
+
+
+}
+.PageTitle{
+font-size: 50px;
+margin: 0;
+
+}
+
+.login_input{
+margin: 15px 0px 15px 0px
+
+}
+body{
+  margin: 0px,0px,0px,0px;
+}
