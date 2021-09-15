@@ -5,13 +5,13 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
 
-@NgModule({
-imports:[
-  MatButtonModule,
-    MatFormFieldModule,
-    MatGridListModule
-]
-})
+// @NgModule({
+// imports:[
+//   MatButtonModule,
+//     MatFormFieldModule,
+//     MatGridListModule
+// ]
+// })
 @Component({
   selector: 'app-root',
   templateUrl: './signup.component.html',

@@ -11,6 +11,7 @@ import { LoginComponent } from './login.component';
 import { AboutComponent } from './about.component';
 import {AppRoutingModule ,routingComponetns} from './app-routing.module';
 import { SignupComponent} from './signup.component';
+import { CreateBusnissComponent} from './create-busniss.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SignupComponent} from './signup.component';
     LoginComponent,
     AppComponent,
     AboutComponent,
-    SignupComponent
+    SignupComponent,
+    CreateBusnissComponent
   ],
   imports: [
     BrowserModule,

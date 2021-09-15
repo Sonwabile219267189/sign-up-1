@@ -10,23 +10,30 @@
         <div class="banner"> </div>
         <div class=login_form>
 
-        <form>
-         
-
-            <h2 class="PageTitle ">Log in</h2>
-
+            <mat-form-field appearance="outline" class="modal-content">
+                <div class ="container">
+                  <h1>Login </h1>
+                <p></p>
+          
+                
+                  <p>Username</p><input  type="text" matInput placeholder="Username">
+               
               
-                <input class="login_input" type = "text" placeholder="Name"><br>
-                <input class="login_input" type = "text" placeholder="Password"><br>
-                <button mat-raised-button type="button" class="button">Login</button>
-                <button mat-raised-button type="button" class="button">Cancel</button>
-           
-        </form>
-        </div>
+                <p>Password</p><input  type="text" matInput placeholder="password">
+              
+          
+              <div class="buttonList">
+                  <button mat-raised-button onclick="alert('cancelled')"> Login</button>
+                  <button mat-raised-button onclick="alert('form submitted')">Cancel</button>
+              </div>
+          
+            </div>
+
+        </mat-form-field>   
 
         <div class="footer"></div >
            
-    </body>
+
 
 
 <html>
