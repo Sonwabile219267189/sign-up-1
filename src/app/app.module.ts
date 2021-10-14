@@ -12,6 +12,7 @@ import { AboutComponent } from './about.component';
 import {AppRoutingModule ,routingComponetns} from './app-routing.module';
 import { SignupComponent} from './signup.component';
 import { CreateBusnissComponent} from './create-busniss.component';
+import { SurfBusinessComponent } from './surf-business.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { CreateBusnissComponent} from './create-busniss.component';
     AppComponent,
     AboutComponent,
     SignupComponent,
-    CreateBusnissComponent
+    CreateBusnissComponent,
+    SurfBusinessComponent
   ],
   imports: [
     BrowserModule,
